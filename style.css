@@ -1,12 +1,30 @@
-body{
-    margin: 0;
-}
-.PUBG img{
-width: 120px;
-}
-.PUDG{
+.header{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 150px;
 }
-
-
-
+.hederbuton{
+   display: flex;
+   gap: 30px;
+}
+.cuns{
+    background-color: blue;
+    border-radius: 15px;
+    color: aliceblue;
+    padding: 10px 5px;
+    border-color: aliceblue;
+}
+.VAKBAN{
+    position: relative;
+}
+.VAKBAN img{
+    width: 100%;
+}
+.VALVE{
+    width: 1000px;
+    position: absolute;
+    color: aliceblue;
+    left:1%;
+    top: 100px;
+}
