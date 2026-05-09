@@ -22,9 +22,48 @@
     width: 100%;
 }
 .VALVE{
-    width: 1000px;
+    width: 500px;
     position: absolute;
     color: aliceblue;
-    left:1%;
+    left: 1%;
     top: 100px;
+}
+.WERS{
+    position: relative;
+}
+.Kaska{
+    position: absolute;
+    left: 40%;
+    top: 150px;
+    width: 200px;
+    }
+.sss{
+background-color: blue;
+    border-radius: 15px;
+    color: aliceblue;
+    padding: 10px 5px;
+    border-color: aliceblue;
+}
+.ss{
+    position: relative;
+}
+.ccc{
+position: absolute;
+top: 500px;
+right: 45%;
+}
+.awg{
+display: flex;
+ gap: 20px;
+ justify-content: center;
+ padding: 10px;
+
+
+}
+.column{
+flex: 1;
+background-color: aliceblue;
+padding: 20px;
+border: 1px;
+text-align: center;
 }
