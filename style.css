@@ -6,6 +6,7 @@
 }
 .hederbuton{
    display: flex;
+   align-items: center;
    gap: 30px;
 }
 .cuns{
@@ -27,15 +28,22 @@
     color: aliceblue;
     left: 1%;
     top: 100px;
+    background-color: rgba(0, 0, 0, 0.338);
+    padding: 15px;
 }
 .WERS{
     position: relative;
 }
 .Kaska{
-    position: absolute;
-    left: 40%;
-    top: 150px;
-    width: 200px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .Kaska div{
+        width: 500px;
     }
 .sss{
 background-color: blue;
@@ -66,4 +74,22 @@ background-color: aliceblue;
 padding: 20px;
 border: 1px;
 text-align: center;
+}
+.must{
+    padding:10px ;
+    position: relative;
+}
+.Gg{
+position: absolute;
+top: 10%;
+right: 10%;
+background-color: white;
+padding: 30px;
+width: 30%;
+}
+
+.bluebutton{
+    color: white;
+    background-color: blue;
+    padding: 5px;
 }
